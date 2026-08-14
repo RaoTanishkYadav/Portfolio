@@ -344,10 +344,7 @@ a:focus-visible, button:focus-visible {
 }
 .hero-line { display: block; overflow: hidden; }
 .hero-line--accent {
-  background: linear-gradient(120deg, var(--purple) 10%, var(--cyan) 90%);
-  -webkit-background-clip: text; background-clip: text; color: transparent;
-  /* Ensure WebKit browsers render transparent text when using background-clip */
-  -webkit-text-fill-color: transparent;
+ display: block; overflow: hidden;
 }
 .hero-desc {
   font-size: clamp(0.95rem, 1.4vw, 1.1rem);
